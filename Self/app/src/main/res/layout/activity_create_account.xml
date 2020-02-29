@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".CreateAccount">
+    <ProgressBar
+        android:id="@+id/progress_acct"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        />
+    <LinearLayout
+        android:orientation="vertical"
+        android:id="@+id/loginForm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameacct"
+            android:hint="Enter Username"
+            android:inputType="text"
+            android:maxLines="1"
+            android:layout_marginBottom="16dp"/>
+        <AutoCompleteTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/email_acct"
+            android:hint="Enter Email"
+            android:inputType="textEmailAddress"
+            android:maxLines="1"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/password_acct"
+            android:hint="Enter Password"
+            android:layout_marginTop="16dp"
+            android:inputType="textPassword"
+            android:maxLines="1"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:id="@+id/acctButton"
+            android:textColor="@color/colorAccent"
+            android:text="Create Account"
+            android:layout_marginTop="16dp"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "project number",
+    "firebase_url": "url",
+    "project_id": "id",
+    "storage_bucket": "bucket"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "app id",
+        "android_client_info": {
+          "package_name": "com.tasks.self"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "client id",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tasks.self",
+            "certificate_hash": "hash certificate"
+          }
+        },
+        {
+          "client_id": "client id",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "client-id"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "client -id",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

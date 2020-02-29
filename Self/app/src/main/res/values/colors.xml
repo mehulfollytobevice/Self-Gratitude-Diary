@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/endGcolor</color>
+    <color name="colorPrimaryDark">@color/endGcolor</color>
+    <color name="colorAccent">#c0ca33</color>
+    <color name="startGcolor">#3a1c71</color>
+    <color name="centerGcolor">#d76d77</color>
+    <color name="endGcolor">#ffaf7b</color>
+    <color name="yellowBg">#ffde03</color>
+</resources>

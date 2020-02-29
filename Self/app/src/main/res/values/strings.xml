@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Self</string>
+    <string name="self_gratitude_journal">Self.Gratitude.Journal</string>
+    <string name="what_are_you_grateful_for">What are you grateful for?</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="sign_out">Sign out</string>
+    <string name="add_item">Add Item</string>
+    <string name="user">User</string>
+</resources>
